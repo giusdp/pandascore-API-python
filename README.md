@@ -33,6 +33,8 @@ LeaguesOfLegends lets you make the ones on the game with the same name (duh)\
 \
 Dota2 the same, but there are very few methods for this one.
 
+Every query you do returns a tuple (status_code, json/error_msg) where status_code is the status number from the response, if it's 200 the second element of the tuple is the json. If it's not 200 you'll find the error message associated with that number.
+
 ## TODO
 
 Documentation of the methods.\
